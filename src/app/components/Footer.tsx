@@ -8,10 +8,10 @@ export function Footer() {
       <div style={{ backgroundColor: "#CBA981" }} className="h-0.5 w-full" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          {/* Logo */}
-          <div>
-            <img src={logoImage} alt="BTB Capital" className="h-12 w-auto mb-4" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 items-start">
+          {/* Logo - sized to match contact section height */}
+          <div className="flex items-start">
+            <img src={logoImage} alt="BTB Capital" className="h-auto w-auto max-h-32 mb-4" />
           </div>
 
           {/* Quick Links */}
@@ -31,13 +31,13 @@ export function Footer() {
             </nav>
           </div>
 
-          {/* Contact Info */}
-          <div className="flex flex-col md:items-end">
+          {/* Contact Info - right aligned on desktop */}
+          <div className="flex flex-col md:items-end md:text-right">
             <h4 className="font-semibold mb-4 text-sm tracking-wide" style={{ fontFamily: "Montserrat, sans-serif" }}>Contact</h4>
             <div className="space-y-2 text-sm" style={{ color: "#9FBCD4" }}>
               <p>0421 761 090</p>
               <p>info@btbcapital.com.au</p>
-              <p className="max-w-xs md:text-right">Level 2, 20-22 Albert Road<br />South Melbourne, VIC 3205</p>
+              <p>Level 2, 20-22 Albert Road<br />South Melbourne, VIC 3205</p>
             </div>
           </div>
         </div>
