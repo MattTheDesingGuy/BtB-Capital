@@ -1,9 +1,9 @@
 import { Link } from "react-router";
 import { UserCircle, Mail } from "lucide-react";
-import aboutHeroImage from "figma:asset/1da99c57e8a9ba10daf52db29a9202b09c74c6ba.png";
-import georgeImage from "figma:asset/d1ecb8dae64bda0f6a38ac6958073f8213b34bfb.png";
-import melissaImage from "figma:asset/0cc35573c097e9d42f2cc068ec71afa1e368ebe2.png";
-import vinceImage from "figma:asset/09c2db4fb6fd5826e52f9b52b0e2263d5bdbbb97.png";
+import aboutHeroImage from "@/assets/1da99c57e8a9ba10daf52db29a9202b09c74c6ba.png";
+import georgeImage from "@/assets/d1ecb8dae64bda0f6a38ac6958073f8213b34bfb.png";
+import melissaImage from "@/assets/0cc35573c097e9d42f2cc068ec71afa1e368ebe2.png";
+import vinceImage from "@/assets/09c2db4fb6fd5826e52f9b52b0e2263d5bdbbb97.png";
 
 export function About() {
   // Placeholder team members - brief mentions these will be supplied by client

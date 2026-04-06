@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
-import contactHeroImage from "figma:asset/c5ae73c04f8f924897e33fe37ca3f1d7271f7cf0.png";
+import contactHeroImage from "@/assets/c5ae73c04f8f924897e33fe37ca3f1d7271f7cf0.png";
 
 export function Contact() {
   const [formData, setFormData] = useState({

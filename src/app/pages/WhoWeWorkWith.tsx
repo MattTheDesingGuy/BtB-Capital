@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { TrendingUp, Home as HomeIcon, Handshake } from "lucide-react";
-import heroImage from "figma:asset/f373a74d89d20dfe660cd1081331f00327c69f2d.png";
+import heroImage from "@/assets/f373a74d89d20dfe660cd1081331f00327c69f2d.png";
 
 export function WhoWeWorkWith() {
   return (

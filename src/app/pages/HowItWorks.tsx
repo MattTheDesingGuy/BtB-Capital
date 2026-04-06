@@ -1,6 +1,6 @@
 import { CheckCircle } from "lucide-react";
 import { Link } from "react-router";
-import howItWorksHeroImage from "figma:asset/76c568c1a906ac8c5d70a73e5389c41650eee0a6.png";
+import howItWorksHeroImage from "@/assets/76c568c1a906ac8c5d70a73e5389c41650eee0a6.png";
 
 export function HowItWorks() {
   const steps = [
