@@ -11,7 +11,7 @@ export function About() {
     {
       name: "George Loupos",
       title: "Director",
-      email: "vince@btbcapital.com.au",
+      email: "george@btbcapital.com.au",
       bio: "George leads BTB Capital with extensive experience in private lending and financial services. He personally oversees every transaction to ensure client interests are protected.",
       image: georgeImage
     },
