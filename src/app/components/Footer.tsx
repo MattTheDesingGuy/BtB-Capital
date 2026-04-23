@@ -20,7 +20,7 @@ export function Footer() {
             <nav className="flex flex-col md:flex-row gap-3 md:gap-6 text-sm">
               <Link to="/" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>Home</Link>
               <Link to="/about" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>About Us</Link>
-              <Link to="/how-it-works" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>How It Works</Link>
+              <Link to="/who-we-work-with" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>Who We Work With</Link>
               <Link to="/contact" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>Get in Touch</Link>
             </nav>
             {/* Secondary audience links */}
