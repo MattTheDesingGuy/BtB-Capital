@@ -2,17 +2,6 @@ import { Link } from "react-router";
 import { ShieldCheck, Building2, Users, FileCheck, Landmark, Lock, AlertCircle } from "lucide-react";
 
 export function Home() {
-  const steps = [
-    "Source",
-    "Present",
-    "Draft",
-    "Secure",
-    "Trust",
-    "Settle",
-    "No Cost to You",
-    "Manage"
-  ];
-
   return (
     <div>
       {/* Hero Section */}
@@ -24,28 +13,28 @@ export function Home() {
       >
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <p className="text-xs tracking-[0.15em] uppercase font-semibold mb-6" style={{ color: "#CBA981", fontFamily: "Montserrat, sans-serif" }}>
-            Private Lending. Personally Managed.
+            Private Lending. Managed.
           </p>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl mb-6 text-white leading-tight" style={{ fontFamily: "Playfair Display, serif" }}>
             Your Private Lending Representative
           </h1>
           <p className="text-lg mb-8 text-white max-w-3xl mx-auto leading-relaxed" style={{ fontFamily: "Montserrat, sans-serif", opacity: 0.95 }}>
-            BTB Capital connects private investors with quality borrowers through secured, transparent peer-to-peer lending — managed personally from start to finish.
+            BTB Capital connects private investors with qualified borrowers through secured, transparent peer-to-peer lending, managed from start to finish.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
-              to="/how-it-works"
+              to="/contact"
               style={{ backgroundColor: "#CBA981", color: "#012746" }}
               className="px-8 py-3 rounded font-semibold tracking-wide hover:opacity-90 transition-opacity text-base"
             >
-              See How It Works
+              Get in Touch
             </Link>
             <Link
-              to="/contact"
+              to="/who-we-work-with"
               className="text-white underline hover:opacity-80 transition-opacity"
               style={{ fontFamily: "Montserrat, sans-serif" }}
             >
-              Or get in touch directly →
+              Learn more →
             </Link>
           </div>
         </div>
@@ -67,7 +56,7 @@ export function Home() {
                 Direct, Not Pooled
               </h3>
               <p style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.6" }}>
-                Your money goes to a specific borrower, secured against a specific property. There's no fund, no pooling, and no guesswork. You see exactly where your investment sits at all times.
+                Your money goes to a specific borrower, secured against a specific property. There's no fund, no pooling, and no guesswork. You know exactly where your investment sits at all times.
               </p>
             </div>
 
@@ -80,7 +69,7 @@ export function Home() {
                 Secured by Real Property
               </h3>
               <p style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.6" }}>
-                Every investment is backed by tangible security — First Mortgage, Second Mortgage, Caveat, GSA, Guarantees, or collateral real property. All clearly documented in your Loan Terms.
+                Every investment is secured by a combination of the following instruments: First Mortgage, Second Mortgage, Caveat, GSA, or Guarantees. All clearly documented in your Loan Terms.
               </p>
             </div>
 
@@ -93,65 +82,25 @@ export function Home() {
                 Managed End-to-End
               </h3>
               <p style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.6" }}>
-                From sourcing the opportunity to managing repayments and handling defaults, BTB looks after the entire process. You have one team managing your investment from day one to discharge.
+                From sourcing the opportunity to managing repayments and handling defaults, BTB Capital looks after the entire process. You have one team managing your loan from day one to discharge.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* How It Works - Summary Strip */}
+      {/* Case Studies */}
       <section className="bg-white py-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto">
-          <p className="text-xs tracking-[0.15em] uppercase font-semibold mb-6 text-center" style={{ color: "#A07E56", fontFamily: "Montserrat, sans-serif" }}>
-            How It Works
+        <div className="max-w-7xl mx-auto text-center">
+          <p className="text-xs tracking-[0.15em] uppercase font-semibold mb-6" style={{ color: "#A07E56", fontFamily: "Montserrat, sans-serif" }}>
+            Case Studies
           </p>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-12 text-center" style={{ color: "#0F3C60", fontFamily: "Playfair Display, serif" }}>
-            Eight steps. One team. Complete transparency.
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8" style={{ color: "#0F3C60", fontFamily: "Playfair Display, serif" }}>
+            Real Transactions. Real Results.
           </h2>
-          
-          {/* Timeline Visual */}
-          <div className="mb-12 overflow-x-auto pb-4">
-            <div className="flex justify-between items-start min-w-max px-4 mx-auto" style={{ maxWidth: "1000px" }}>
-              {steps.map((step, index) => (
-                <div key={index} className="flex flex-col items-center relative" style={{ width: "110px" }}>
-                  {/* Connecting line */}
-                  {index < steps.length - 1 && (
-                    <div 
-                      className="absolute top-6 left-1/2 h-0.5 w-full"
-                      style={{ backgroundColor: "#CBA981", transform: "translateY(-50%)" }}
-                    />
-                  )}
-                  {/* Circle */}
-                  <div 
-                    className="w-12 h-12 rounded-full flex items-center justify-center relative z-10 mb-3"
-                    style={{ backgroundColor: "#0F3C60" }}
-                  >
-                    <span className="text-white font-semibold text-lg" style={{ fontFamily: "Montserrat, sans-serif" }}>
-                      {index + 1}
-                    </span>
-                  </div>
-                  {/* Label */}
-                  <p className="text-xs text-center font-medium leading-tight" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif" }}>
-                    {step}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <p className="text-center max-w-4xl mx-auto mb-8" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.6" }}>
-            We handle every stage of the private lending process — due diligence, legal documentation, security registration, settlement, and ongoing loan management. All legal costs are paid by the borrower.
+          <p className="max-w-3xl mx-auto mb-8" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.6" }}>
+            Case studies coming soon.
           </p>
-          <div className="text-center">
-            <Link 
-              to="/how-it-works" 
-              className="inline-flex items-center font-semibold hover:opacity-80 transition-opacity"
-              style={{ color: "#2A618D", fontFamily: "Montserrat, sans-serif" }}
-            >
-              Read the full process →
-            </Link>
-          </div>
         </div>
       </section>
 
@@ -162,7 +111,7 @@ export function Home() {
             <div className="flex flex-col items-center text-center">
               <Landmark size={32} className="mb-3" style={{ color: "#CBA981" }} strokeWidth={1.5} />
               <p className="text-white font-semibold text-sm" style={{ fontFamily: "Montserrat, sans-serif" }}>
-                Legal partner: A&C Landmark
+                Legal partner: panel of legal professionals
               </p>
             </div>
             <div className="flex flex-col items-center text-center">

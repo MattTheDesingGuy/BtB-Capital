@@ -20,7 +20,7 @@ export function WhoWeWorkWith() {
             Investors. Borrowers. Brokers.
           </h1>
           <p className="text-lg text-white leading-relaxed" style={{ fontFamily: "Montserrat, sans-serif", opacity: 0.95 }}>
-            BTB Capital sits at the centre of every transaction — connecting private investors with quality borrowers, and working alongside brokers who need a trusted lending partner.
+            BTB Capital sits at the centre of every transaction, connecting private investors with qualified borrowers, and working alongside brokers who need a trusted lending partner.
           </p>
         </div>
       </section>
@@ -39,7 +39,7 @@ export function WhoWeWorkWith() {
               BTB Capital facilitates secured private mortgage loans for investors seeking strong, transparent returns backed by real property. Every investment opportunity goes through thorough due diligence before it's presented to you, and every loan is documented with clear terms that you review and approve.
             </p>
             <p>
-              We offer straightforward peer-to-peer lending where we manage the entire transaction from start to finish — sourcing, documentation, settlement, interest payments, and if needed, recovery. All loans are secured against real property, and all legal costs are paid by the borrower.
+              We offer straightforward peer-to-peer lending where we manage the entire transaction from start to finish: sourcing, documentation, settlement, interest payments, and if needed, recovery. All loans are secured against real property, and all legal costs are paid by the borrower.
             </p>
           </div>
           <div className="text-center mt-8">
@@ -68,7 +68,7 @@ export function WhoWeWorkWith() {
               BTB Capital is a private loan facilitator that takes a pragmatic approach to lending. We understand that not every client fits within the strict criteria of the major banks, and we offer a flexible, common-sense alternative for borrowers who need access to funds.
             </p>
             <p>
-              Whether you're settling a property acquisition, funding a development project, consolidating finances, or freeing up capital for business purposes, we can help. We offer private mortgage loans secured against residential, commercial, or vacant land — and we work with you to find a structure that suits your needs. We know that timing matters, so we aim to move quickly and get you to settlement without unnecessary delays.
+              Whether you're settling a property acquisition, funding a development project, consolidating finances, or freeing up capital for business purposes, we can help. We offer private mortgage loans secured against residential, commercial, or vacant land, and we work with you to find a structure that suits your needs. We know that timing matters, so we aim to move quickly and get you to settlement without unnecessary delays.
             </p>
           </div>
           <div className="text-center mt-8">
@@ -94,10 +94,10 @@ export function WhoWeWorkWith() {
           </h2>
           <div className="space-y-6 max-w-4xl mx-auto" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.7", fontSize: "1.05rem" }}>
             <p>
-              If you're a finance broker with clients who need private lending solutions, BTB Capital is a reliable settlement partner you can count on. We have a strong network of private investors ready to fund quality transactions, and we handle the entire process — from documentation through to settlement and loan management.
+              If you're a finance broker with clients who need private lending solutions, BTB Capital is a reliable settlement partner you can count on. We have a strong network of private investors ready to fund qualified transactions, and we handle the entire process from documentation through to settlement and loan management.
             </p>
             <p>
-              We work closely with brokers to structure deals that work for all parties, and we move efficiently so your clients aren't left waiting. If you have a deal that needs a private lending solution, we'd like to hear from it.
+              We work closely with brokers to structure deals that work for all parties, and we move efficiently so your clients aren't left waiting. If you have a deal that needs a private lending solution, we'd like to hear from you.
             </p>
           </div>
           <div className="text-center mt-8">

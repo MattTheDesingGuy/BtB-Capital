@@ -17,14 +17,14 @@ export function About() {
     },
     {
       name: "Vince Bengasino",
-      title: "Consultant",
+      title: "Director",
       email: "vince@btbcapital.com.au",
-      bio: "Vincent brings over 16 years of experience across financial markets, private credit, and real estate lending. He is known for his attention to detail and belief that strong client relationships lead to better outcomes.",
+      bio: "Vincent brings over 22 years of experience across financial markets, private credit, and real estate lending. He is known for his attention to detail and belief that strong client relationships lead to better outcomes.",
       image: vinceImage
     },
     {
       name: "Melissa Lemus",
-      title: "Law Clerk",
+      title: "Accounts Administrator",
       email: "melissa@btbcapital.com.au",
       bio: "Bio to be provided by client. Dedicated to providing exceptional service and support throughout the lending process.",
       image: melissaImage
@@ -48,7 +48,7 @@ export function About() {
             A Different Approach to Private Lending
           </h1>
           <p className="text-lg text-white leading-relaxed" style={{ fontFamily: "Montserrat, sans-serif", opacity: 0.95 }}>
-            BTB Capital is a Melbourne-based private lending facilitator. We act as your personal representative — sourcing opportunities, managing transactions, and protecting your interests through every stage of the lending process.
+            BTB Capital is a Melbourne-based private lending facilitator. We act as your personal representative, sourcing opportunities, managing transactions, and protecting your interests through every stage of the lending process.
           </p>
         </div>
       </section>
@@ -64,13 +64,13 @@ export function About() {
           </h2>
           <div className="space-y-6" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.7", fontSize: "1.05rem" }}>
             <p>
-              Most private lending in Australia is managed through funds — your capital is pooled with other investors, placed into a fund structure, and lent out on terms you may never see. You hold units in a fund, not a direct position in a specific loan.
+              Most private lending in Australia is managed through funds; your capital is pooled with other investors, placed into a fund structure, and lent out on terms you may never see. You hold units in a fund, not a direct position in a specific loan.
             </p>
             <p>
               BTB Capital works differently. We facilitate direct, peer-to-peer lending. When you invest through us, your funds go to a specific borrower, secured against a specific property, on terms you've personally reviewed and approved. There's no fund, no pooling, and no intermediary structure between you and your investment.
             </p>
             <p>
-              This means complete transparency. You know who the borrower is, what the security is, what interest you'll receive, and when the loan matures. And because we manage the loan from settlement through to discharge, you have one point of contact throughout.
+              This means complete transparency. You know who the borrower is, what the security is, what interest you'll receive, and when the loan matures. And because we manage the loan process from settlement through to discharge, you have one point of contact throughout.
             </p>
           </div>
         </div>
@@ -84,7 +84,7 @@ export function About() {
           </h2>
           <div className="space-y-6 max-w-4xl mx-auto" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.7", fontSize: "1.05rem" }}>
             <p>
-              BTB Capital works with investors, borrowers, and brokers. Our investors rely on us to source quality opportunities and manage their lending from start to finish. Our borrowers come to us for fast, flexible access to private funds when the banks can't help. And our broker partners trust us to get deals done efficiently and professionally.
+              BTB Capital works with investors, borrowers, and brokers. Our investors rely on us to source qualified opportunities and manage their lending process from start to finish. Our borrowers come to us for fast, flexible access to private funds when the banks can't help. And our broker partners trust us to get deals done efficiently and professionally.
             </p>
             <p>
               What ties it all together is the same approach: thorough due diligence, clear documentation, secured lending against real property, and a team that picks up the phone.
@@ -104,10 +104,7 @@ export function About() {
           </h2>
           <div className="space-y-6 max-w-4xl mx-auto" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.7", fontSize: "1.05rem" }}>
             <p>
-              BTB Capital partners with A&C Landmark and other legal professionals to handle all legal aspects of every transaction. A&C Landmark is a law firm that specialises in commercial and banking law with extensive experience in financial transactions.
-            </p>
-            <p>
-              They draft your Loan Terms, register all securities, manage settlement, and — if needed — act on recovery. Their involvement ensures that every transaction is legally sound and that your interests are protected from documentation through to discharge.
+              BTB Capital partners with a panel of legal professionals to handle all legal aspects of every transaction.
             </p>
           </div>
         </div>
@@ -123,7 +120,7 @@ export function About() {
             Three People. Direct Access.
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.7", fontSize: "1.05rem" }}>
-            With a team of three, you'll always deal directly with the people managing your investment. No call centres, no account managers, no being passed around. When you call BTB, you speak to someone who knows your name, your loans, and your situation.
+            With a team of three, you'll always deal directly with the people managing your loan. No call centres, no account managers, no being passed around. When you call BTB, you speak to someone who knows your name, your loans, and your situation.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
