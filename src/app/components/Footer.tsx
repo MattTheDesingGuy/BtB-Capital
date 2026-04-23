@@ -18,10 +18,10 @@ export function Footer() {
           <div className="flex flex-col items-start md:items-center">
             <h4 className="font-semibold mb-4 text-sm tracking-wide" style={{ fontFamily: "Montserrat, sans-serif" }}>Quick Links</h4>
             <nav className="flex flex-col md:flex-row gap-3 md:gap-6 text-sm">
-              <Link to="/" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>Home</Link>
-              <Link to="/about" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>About Us</Link>
-              <Link to="/who-we-work-with" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>Who We Work With</Link>
-              <Link to="/contact" className="hover:opacity-80 transition-opacity" style={{ color: "#9FBCD4" }}>Get in Touch</Link>
+              <Link to="/" className="hover:opacity-80 transition-opacity whitespace-nowrap" style={{ color: "#9FBCD4" }}>Home</Link>
+              <Link to="/about" className="hover:opacity-80 transition-opacity whitespace-nowrap" style={{ color: "#9FBCD4" }}>About Us</Link>
+              <Link to="/who-we-work-with" className="hover:opacity-80 transition-opacity whitespace-nowrap" style={{ color: "#9FBCD4" }}>Who We Work With</Link>
+              <Link to="/contact" className="hover:opacity-80 transition-opacity whitespace-nowrap" style={{ color: "#9FBCD4" }}>Get in Touch</Link>
             </nav>
             {/* Secondary audience links */}
             <nav className="flex flex-col md:flex-row gap-3 md:gap-4 text-xs mt-4">
