@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import { UserCircle, Mail } from "lucide-react";
 import aboutHeroImage from "@/assets/1da99c57e8a9ba10daf52db29a9202b09c74c6ba.png";
 import georgeImage from "@/assets/d1ecb8dae64bda0f6a38ac6958073f8213b34bfb.png";
-import melissaImage from "@/assets/0cc35573c097e9d42f2cc068ec71afa1e368ebe2.png";
+import melissaImage from "@/assets/Melissa profile 2.png";
 import vinceImage from "@/assets/09c2db4fb6fd5826e52f9b52b0e2263d5bdbbb97.png";
 
 export function About() {
@@ -133,7 +133,7 @@ export function About() {
                       src={member.image} 
                       alt={member.name} 
                       className="w-full h-full object-cover"
-                      style={member.name === "Melissa Lemus" ? { objectPosition: "center 15%", transform: "scale(1.5)" } : {}}
+                      style={{}}
                     />
                   </div>
                 ) : (
