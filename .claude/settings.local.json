@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\Matthew\\\\OneDrive\\\\Desktop\\\\GitHub\\\\BtB-Capital\\\\src\\\\assets\")",
+      "Bash(gh run *)",
+      "Bash(where gh *)"
+    ]
+  }
+}
