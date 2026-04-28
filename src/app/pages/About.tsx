@@ -25,7 +25,7 @@ export function About() {
     {
       name: "Melissa Lemus",
       title: "Accounts Administrator",
-      email: "melissa@btbcapital.com.au",
+      email: "info@btbcapital.com.au",
       bio: "Bio to be provided by client. Dedicated to providing exceptional service and support throughout the lending process.",
       image: melissaImage
     }
@@ -57,7 +57,7 @@ export function About() {
       <section style={{ backgroundColor: "#F5F0EA" }} className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <p className="text-xs tracking-[0.15em] uppercase font-semibold mb-6 text-center" style={{ color: "#A07E56", fontFamily: "Montserrat, sans-serif" }}>
-            The BTB Model
+            The BTB Capital Model
           </p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl mb-8 text-center" style={{ color: "#0F3C60", fontFamily: "Playfair Display, serif" }}>
             Peer-to-Peer, Not Pooled
@@ -120,7 +120,7 @@ export function About() {
             Three People. Direct Access.
           </h2>
           <p className="text-center max-w-3xl mx-auto mb-12" style={{ color: "#4E4E4E", fontFamily: "Montserrat, sans-serif", lineHeight: "1.7", fontSize: "1.05rem" }}>
-            With a team of three, you'll always deal directly with the people managing your loan. No call centres, no account managers, no being passed around. When you call BTB, you speak to someone who knows your name, your loans, and your situation.
+            With a team of three, you'll always deal directly with the people managing your loan. No call centres, no account managers, no being passed around. When you call BTB Capital, you speak to someone who knows your name, your loans, and your situation.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
