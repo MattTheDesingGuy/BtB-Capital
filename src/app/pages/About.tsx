@@ -26,7 +26,7 @@ export function About() {
       name: "Melissa Lemus",
       title: "Accounts Administrator",
       email: "info@btbcapital.com.au",
-      bio: "Melissa Lemus Castillo is an Accounts Administrator at BTB Capital, assisting with loan documentation, settlements, and client correspondence. She studied Law and Political Science in Colombia and holds a postgraduate qualification in Criminal Law. Melissa is currently completing her Juris Doctor in Australia and supports the team with investment loan matters, compliance documentation, and legal administration.",
+      bio: "Melissa supports the team with loan documentation, settlements, and client correspondence. She holds a postgraduate qualification in Criminal Law and is currently completing her Juris Doctor in Australia.",
       image: melissaImage
     }
   ];
