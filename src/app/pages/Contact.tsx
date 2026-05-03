@@ -193,7 +193,7 @@ export function Contact() {
               <div className="rounded-lg overflow-hidden shadow-md h-80">
                 <iframe
                   title="BTB Capital Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.1949270230936!2d144.9570!3d-37.8414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad667f4c6e7ed75%3A0x5045675218ce7e0!2s20-22%20Albert%20Rd%2C%20South%20Melbourne%20VIC%203205!5e0!3m2!1sen!2sau!4v1234567890"
+                  src="https://maps.google.com/maps?q=20-22+Albert+Road,+South+Melbourne+VIC+3205,+Australia&z=16&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
